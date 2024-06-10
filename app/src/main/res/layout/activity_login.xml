@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cff8cf"
+    android:orientation="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:hint="E-mail"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="343dp"
+        android:layout_height="45dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:background="@color/black"
+        android:text="LOGIN"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Precisa de uma conta? Cadastre-se"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="481dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

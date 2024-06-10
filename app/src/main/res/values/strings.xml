@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">resgate001</string>
+    <string name="selecione_o_tipo">Selecione o tipo</string>
+    <string-array name="cnh">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+</resources>
